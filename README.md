@@ -6,48 +6,32 @@ Aspiring Data Analyst
 
 Turning data into decisions.
 
-Project overview:-
+PROJECT OVERVIEW:-
 <br>
-This project focuses on analyzing real-world e-commerce data to uncover business insights related to sales performance, customer behavior, operational efficiency, and growth opportunities.
+This project focuses on analyzing transactional data from a UK-based e-commerce retailer to understand sales performance, customer purchasing behavior, and product trends. The goal is to practice real-world data analytics skills by working with raw data, cleaning it properly, exploring patterns, and deriving meaningful business insights. 
 
-The goal is not just to analyze data, but to answer meaningful business questions and translate insights into actionable recommendations, similar to how a data analyst works in an industry setting.
-
-BUSINESS PROBLEM:-
-<br>
-E-commerce companies deal with large volumes of data but often struggle to convert it into clear, decision-ready insights.
-
-This project aims to help answer questions such as:
-
--How is revenue trending over time?
-<br>
--Which products and customers drive the most value?
-<br>
--Are delivery delays impacting customer satisfaction?
-<br>
--Which regions or categories need attention?
-<br>
--Where can the business improve operational efficiency?
 
 DATASET:-
 <br>
-Brazilian E-Commerce Public Dataset (Olist)
-The dataset contains ~100,000 real e-commerce orders with information on:
+UK E-Commerece Dataset
+The dataset includes informations such as:
 
--Customers
+-InvoiceNo
 <br>
--Orders
+-Stockcode
 <br>
--Products
+-Description
 <br>
--Payments
+-Quantity
 <br>
--Sellers
+-InvoiceDate
 <br>
--Reviews
+-UnitPrice
 <br>
--Delivery timelines
+-CustomerID
+<br>
+-Country
 
-This multi-table structure closely resembles data used in real business environments.
 
 TOOLS & TECHNOLOGIES:-
 <br>
@@ -61,54 +45,31 @@ TOOLS & TECHNOLOGIES:-
 <br>
 -GitHub – Version control and project documentation
 
-KPIs ANALYZED:-
-<br>
--Total Revenue
-<br>
--Monthly Revenue Growth
-<br>
--Average Order Value (AOV)
-<br>
--Customer Retention Rate
-<br>
--Delivery Time
-<br>
--Customer Review Score
 
-ANALYTICAL APPROACH:-
+
+ANALYSIS PERFORMED:-
 <br>
-1.Business Understanding – Defined clear business questions and KPIs
+Overall sales and revenue trends
 <br>
-2.Data Understanding – Studied table relationships and data quality
+Monthly and daily sales patterns
 <br>
-3.Data Extraction (SQL) – Built queries to extract meaningful metrics
+Top products by quantity and revenue
 <br>
 4.Exploratory Data Analysis (Python) – Identified trends, patterns, and anomalies
 <br>
-5.Visualization (Power BI) – Created executive-ready dashboards
+Customer purchase frequency
 <br>
-6.Insights & Recommendations – Converted analysis into business actions
+Geographic distribution of sales
 
 KEY INSIGHTS (WORK IN PROGRESS):-
 <br>
--Revenue shows seasonal trends with strong growth periods
+-Identified peak sales periods during specific months
 <br>
--Repeat customers contribute significantly to overall revenue
+-A small number of products contribute to a large share of revenue
 <br>
--Delivery delays negatively impact customer review scores
-<br>
--Certain regions and product categories underperform consistently
-<br>
-(Insights will be expanded as the project progresses.)
+-Repeat customers play a significant role in overall sales
+
 
 PROJECT STATUS:-
 <br>
 This project is being developed iteratively, with new insights, dashboards, and recommendations added regularly.
-
-FUTURE SCOPE:-
-<br>
--Customer segmentation using machine learning
-<br>
--Churn prediction and retention strategy
-<br>
--Automated reporting workflows
