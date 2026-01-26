@@ -55,7 +55,7 @@ Monthly and daily sales patterns
 <br>
 Top products by quantity and revenue
 <br>
-4.Exploratory Data Analysis (Python) – Identified trends, patterns, and anomalies
+Exploratory Data Analysis (Python) – Identified trends, patterns, and anomalies
 <br>
 Customer purchase frequency
 <br>
